@@ -1,0 +1,53 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  line-height: 0.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc; }
+  .header p {
+    border-bottom: 2px solid transparent;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem; }
+    .header p.active {
+      border-bottom-color: #0074d9;
+      color: #0074d9; }
+
+.content {
+  flex: 1;
+  overflow-y: scroll;
+  background-color: #eee; }
+
+.content-main {
+  margin-top: 0.1rem;
+  border-top: 1px solid #ccc;
+  background-color: #fff; }
+  .content-main dl {
+    height: 1rem;
+    margin-top: 0.1rem; }
+    .content-main dl dt {
+      height: 0.6rem;
+      background-color: #f74d4d;
+      color: #fff;
+      position: relative; }
+      .content-main dl dt .right {
+        position: absolute;
+        right: 0;
+        bottom: 0.1rem;
+        font-size: 0.24rem; }
+      .content-main dl dt .left {
+        position: absolute; }
+        .content-main dl dt .left i {
+          font-style: normal;
+          font-size: 0.4rem;
+          vertical-align: super; }
+
+/*# sourceMappingURL=style.css.map */
